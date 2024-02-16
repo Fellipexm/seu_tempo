@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const apiKey = '72175e911f70b5793a1eae6a4f7f8f3b';
   const searchButton = document.getElementById('searchButton');
+  const footer = document.querySelector('.footer');
 
   // Mapeamento de códigos de condição climática para descrições mais amigáveis e emojis correspondentes
   const weatherConditions = {
@@ -69,6 +70,9 @@ document.addEventListener('DOMContentLoaded', function() {
             weatherDiv.innerHTML = `Temperatura: ${temperature}°C, Condição: ${condition.emoji} ${condition.description}`;
             document.body.style.backgroundColor = condition.backgroundColor;
             document.body.style.color = condition.textColor;
+            
+            // Mover a div footer para mais baixo
+            footer.style.top = '900px'; // Ou qualquer outro valor que você preferir
           } else {
             throw new Error('Cidade não encontrada ou problema na resposta da API.');
           }
