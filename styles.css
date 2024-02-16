@@ -123,7 +123,7 @@ h1 {
 }
 
 #fellipe:hover {
-  background-color: green;
+  background-color: white;
 }
 
 @media (max-width: 768px) { /* Aplique estilos específicos para telas menores, como tablets e telefones */
