@@ -142,16 +142,16 @@ h1 {
   }
   
   #imagem {
-    position: fixed; /* Alterado para position: fixed; */
-    top: 110%;
+    position: absolute; /* Alterado para position: fixed; */
+    top: 107%;
     left: 85%;
     width: 9%; /* Dimensionamento relativo */
     cursor: pointer;
   }
   
   #imagem1 {
-    position: fixed; /* Alterado para position: fixed; */
-    top: 110%;
+    position: absolute; /* Alterado para position: fixed; */
+    top: 107%;
     left: 8%;
     width: 10%; /* Dimensionamento relativo */
     cursor: pointer;
@@ -160,8 +160,8 @@ h1 {
   .footer p {
   
     position: absolute;
-    top: 110%;
-    left: 23%;
+    top: 107%;
+    left: 33c%;
     
  }
   
