@@ -145,16 +145,16 @@ h1 {
   
   #imagem {
     position: absolute; /* Alterado para position: fixed; */
-    top: 107%;
-    left: 85%;
-    width: 9%; /* Dimensionamento relativo */
+    top: 980px;
+    left:340px ;
+    width: ; /* Dimensionamento relativo */
     cursor: pointer;
   }
   
   #imagem1 {
     position: absolute; /* Alterado para position: fixed; */
-    top: 107%;
-    left: 8%;
+    top: 980px;
+    left:50px ;
     width: 10%; /* Dimensionamento relativo */
     cursor: pointer;
   }
