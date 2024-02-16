@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+#tempo {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center
+}
+
+.texto {
+  padding: 30px;
+  text-align: justify;
+}
+
+.texto p {
+  margin-bottom: 30px;
+}
+
+#cityInput {
+  background-color: whitesmoke;
+  border-radius: 30px;
+  height: 30px;
+  width: calc(100% - 120px);
+  padding: 5px 15px;
+  border: none;
+  margin-right: 10px;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#searchButton {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: inline-block; /* Para alinhar o botão horizontalmente */
+}
+
+#searchButton:hover {
+  background-color: blueviolet;
+}
+
+#weather {
+  background-color: lightgreen;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Estilos adicionais para o fundo da página */
+.sunny {
+  background-color: #ffd700; /* Amarelo */
+}
+
+.cloudy {
+  background-color: #808080; /* Cinza */
+}
+
+.rainy {
+  background-color: #4169e1; /* Azul */
+}
+
+.footer {
+  color: black;
+  font-size: 23px;
+  text-align: center;
+  margin-top: 50px; /* Espaçamento do topo */
+  padding: 20px; /* Espaçamento interno */
+  font-size: 14px; /* Tamanho do texto */
+}
+
+
+#imagem {
+  position: absolute;
+  top: 84%;
+  left: 58%;
+  width: 40px;
+  cursor: pointer;
+}
+
+
+#imagem1 {
+  position: absolute;
+  top: 84%;
+  left: 40%;
+  width: 40px;
+  cursor: pointer;
+}
+
+.footer p {
+   position: absolute;
+   top: 84%;
+   left: 44%;
+   
+}
+
+@media (max-width: 768px) { /* Aplique estilos específicos para telas menores, como tablets e telefones */
+  .container {
+    max-width: 90%;
+  }
+
+  .texto {
+    padding: 10px;
+  }
+
+  .texto p {
+    margin-bottom: 10px;
+  }
+
+  #cityInput {
+    width: calc(100% - 100px);
+  }
+
+  #searchButton {
+    padding: 8px 25px;
+  }
+  
+  #imagem {
+    position: fixed; /* Alterado para position: fixed; */
+    top: 91%;
+    left: 85%;
+    width: 9%; /* Dimensionamento relativo */
+    cursor: pointer;
+  }
+  
+  #imagem1 {
+    position: fixed; /* Alterado para position: fixed; */
+    top: 91%;
+    left: 8%;
+    width: 10%; /* Dimensionamento relativo */
+    cursor: pointer;
+  }
+
+  .footer p {
+  
+    position: absolute;
+    top: 91%;
+    left: 23%;
+    
+ }
+  
+
+}
