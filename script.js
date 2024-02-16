@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.style.color = condition.textColor;
             
             // Mover a div footer para mais baixo
-            footer.style.top = '900px'; // Ou qualquer outro valor que você preferir
+            footer.style.top = '1100px'; // Ou qualquer outro valor que você preferir
           } else {
             throw new Error('Cidade não encontrada ou problema na resposta da API.');
           }

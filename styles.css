@@ -87,6 +87,8 @@ h1 {
 }
 
 .footer {
+  position: absolute;
+  top: 900px;
   color: black;
   font-size: 23px;
   text-align: center;
@@ -113,11 +115,11 @@ h1 {
   cursor: pointer;
 }
 
-.footer p {
-   position: absolute;
-   top: 84%;
-   left: 44%;
-   
+#fellipe {
+  position: absolute;
+  top: 84%;
+  left: 878px;
+  
 }
 
 @media (max-width: 768px) { /* Aplique estilos específicos para telas menores, como tablets e telefones */
@@ -157,7 +159,7 @@ h1 {
     cursor: pointer;
   }
 
-  .footer p {
+  #fellipe {
   
     position: absolute;
     top: 107%;
