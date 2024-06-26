@@ -22,7 +22,7 @@ h1 {
 #tempo {
   color: black;
   font-family: 'Courier New', Courier, monospace;
-  text-align: center
+  text-align: center;
 }
 
 .texto {
@@ -87,44 +87,23 @@ h1 {
 }
 
 .footer {
-  position: absolute;
-  top: 900px;
-  color: black;
-  font-size: 23px;
   text-align: center;
   margin-top: 50px; /* Espaçamento do topo */
   padding: 20px; /* Espaçamento interno */
   font-size: 14px; /* Tamanho do texto */
 }
 
-
-#imagem {
-  position: absolute;
-  top: 84%;
-  left: 58%;
+#imagem, #imagem1 {
   width: 40px;
   cursor: pointer;
-}
-
-
-#imagem1 {
-  position: absolute;
-  top: 84%;
-  left: 40%;
-  width: 40px;
-  cursor: pointer;
+  margin: 0 10px; /* Espaçamento entre os ícones */
 }
 
 #fellipe {
-  position: absolute;
-  top: 84%;
-  left: 878px;
-  
+  display: block;
+  margin-bottom: 20px; /* Espaçamento abaixo do link */
 }
 
-#fellipe:hover {
-  background-color: white;
-}
 
 @media (max-width: 768px) { /* Aplique estilos específicos para telas menores, como tablets e telefones */
   .container {
@@ -146,30 +125,12 @@ h1 {
   #searchButton {
     padding: 8px 25px;
   }
-  
-  #imagem {
-    position: absolute; /* Alterado para position: fixed; */
-    top: 1100px;
-    left:340px ;
-   /* Dimensionamento relativo */
-    cursor: pointer;
-  }
-  
-  #imagem1 {
-    position: absolute; /* Alterado para position: fixed; */
-    top: 1100px;
-    left:50px ;
-    width: 10%; /* Dimensionamento relativo */
-    cursor: pointer;
+
+  #imagem, #imagem1 {
+    width: 30px; /* Reduz o tamanho dos ícones em telas menores */
   }
 
   #fellipe {
-  
-    position: absolute;
-    top: 1100px;
-    left: 140px;
-    
- }
-  
-
+    font-size: 12px; /* Reduz o tamanho da fonte em telas menores */
+  }
 }
